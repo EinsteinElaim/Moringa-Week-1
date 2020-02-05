@@ -1,6 +1,9 @@
 /*for all body elements accross pages sharing this css*/
 body{
-    background-color: lightskyblue;
+    background-image: url("936934.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -14,7 +17,6 @@ body{
 
 .navigationinbody a{
     border: 2pt black solid;
-9
 }
 
 .navigationinbody a:hover{
@@ -25,7 +27,7 @@ body{
 /*for all divs in all pages with class navigationtop*/
 
 .navigationtop{
-    border-radius: 25px;
+    /**/
 }
 
 .navigationtop ul{
@@ -36,17 +38,87 @@ body{
 }
 
 .navigationtop ul li{
-    
+    list-style-type: none;
+    display: inline;
+    padding-right: 25px;
 }
 
 .navigationtop ul li a{
-    
+    color: rgb(233, 52, 52);
 }
 
 .navigationtop ul li a:hover{
-
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 25px;
+    max-width: 444px;
 }
 
-usernameedit input{
-    border-radius: opx;
+.navigationtop ul li a:hover a:active{
+    border: none;
+    outline: none;
+}
+
+img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.centerthisimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+/**/
+#headltext{
+    text-align: center;
+    color: rgb(233, 52, 52);
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 25px;
+    font-size: large;
+    font-style: italic;
+}
+
+#videolink{
+    text-align: center;
+    color: rgb(233, 52, 52);
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 25px;
+    font-size: large;
+    font-style: italic;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    height: 420;
+    border: 2pt rgb(233, 52, 52) solid;
+}
+
+.introductorytext{
+    opacity: .8;
+    
+}
+
+.introductorytext p{
+    text-align: center;
+    border: 3pt solid; 
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(255, 67, 67);
+    margin-right: 20%;
+    margin-left: 20%;
 }
