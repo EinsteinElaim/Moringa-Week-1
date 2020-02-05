@@ -1,0 +1,52 @@
+/*for all body elements accross pages sharing this css*/
+body{
+    background-color: lightskyblue;
+}
+
+
+/*for all divs in classs navigationinbody*/
+
+.navigationinbody{
+    margin: 25px;
+    border: 1pt black solid;
+    padding: 15px;
+}
+
+.navigationinbody a{
+    border: 2pt black solid;
+9
+}
+
+.navigationinbody a:hover{
+    background-color: blue;
+    color: cornsilk;
+}
+
+/*for all divs in all pages with class navigationtop*/
+
+.navigationtop{
+    border-radius: 25px;
+}
+
+.navigationtop ul{
+    text-align: center;
+    border: 1pt black solid;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.navigationtop ul li{
+    
+}
+
+.navigationtop ul li a{
+    
+}
+
+.navigationtop ul li a:hover{
+
+}
+
+usernameedit input{
+    border-radius: opx;
+}
