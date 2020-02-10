@@ -1,6 +1,6 @@
 /*for all body elements accross pages sharing this css*/
 body{
-    background-image: url("936934.jpg");
+    background-image: url("/SoloPractice/images/936934.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,9 +26,9 @@ body{
 
 /*for all divs in all pages with class navigationtop*/
 
-.navigationtop{
-    /**/
-}
+/*.navigationtop{
+    
+}*/
 
 .navigationtop ul{
     text-align: center;
@@ -59,19 +59,20 @@ body{
     outline: none;
 }
 
-img{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    
-}
-
 .centerthisimage{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: auto;
 }
+
+.centerthisimage{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    
+}
+
 /**/
 #headltext{
     text-align: center;
@@ -108,6 +109,8 @@ iframe{
     border: 2pt rgb(233, 52, 52) solid;
 }
 
+
+
 .introductorytext{
     opacity: .8;
     
@@ -122,3 +125,71 @@ iframe{
     margin-right: 20%;
     margin-left: 20%;
 }
+
+.thecreators, .thecreatorss{
+    opacity: .7;
+}
+
+.thecreators h3{
+    margin-top: 5px;
+    border: 3pt solid; 
+    border-color: rgb(233, 52, 52);
+    float: left;
+    border-top: none;
+    border-right: none;
+    border-radius: 25px;
+    margin-left: 7%;
+    background-color: orange;
+}
+
+.thecreatorss h3{
+    margin-top: 5px;
+    border: 3pt solid; 
+    border-color: rgb(233, 52, 52);
+    float: right;
+    border-top: none;
+    border-left: none;
+    border-radius: 25px;
+    margin-right: 7%;
+    text-align: center;
+    background-color: orange;
+}
+
+/*styling span tag here:*/
+.genre{
+    text-decoration: line-through;
+
+}
+
+.danimageright{
+    margin-top: 10px;
+    width: auto;
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-right: none;
+    padding-top:  30px;
+}
+
+.justinimageleft{
+    margin-top: 10px;
+    width: auto;
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: none;
+    padding-top: 30px;
+    margin-left: 0px;
+}
+
+.justinimageleft{
+    border: 2pt  rgb(233, 52, 52) solid;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
